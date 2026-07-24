@@ -866,6 +866,20 @@ h3 {
 }
 
 @media (max-width: 430px) {
+  .doc .top {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .doc .top .nav {
+    margin-left: 58px;
+  }
+
+  .brand-name {
+    font-size: 1.05rem;
+  }
+
   .nav {
     gap: 6px 10px;
   }
