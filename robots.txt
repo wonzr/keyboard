@@ -1,0 +1,4 @@
+# GitHub Pages project site note:
+# Crawlers consult /robots.txt at the domain root, not /keyboard/robots.txt.
+User-agent: *
+Allow: /keyboard/
