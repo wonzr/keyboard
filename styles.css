@@ -1,15 +1,15 @@
 :root {
   color-scheme: light;
-  --bg: #f7f7fb;
+  --bg: #f8f5ff;
   --surface: #ffffff;
-  --ink: #282333;
-  --muted: #81798d;
-  --soft: #9a94a4;
-  --line: #e9e5f0;
-  --line-strong: #dde3f0;
-  --accent: #9496c4;
-  --accent-deep: #676a96;
-  --shadow: 0 24px 60px rgba(40, 35, 51, 0.08);
+  --ink: #211b25;
+  --muted: #706a76;
+  --soft: #9b95a1;
+  --line: #e7e0f3;
+  --line-strong: #d8cdeb;
+  --accent: #e4477d;
+  --accent-deep: #c93567;
+  --shadow: 0 24px 60px rgba(33, 27, 37, 0.08);
 }
 
 * {
@@ -142,7 +142,7 @@ a {
   border-top: 1px solid var(--line);
   border-bottom: 1px solid var(--line);
   background:
-    linear-gradient(110deg, rgba(255, 255, 255, 0.95) 0%, rgba(255, 255, 255, 0.82) 48%, rgba(233, 237, 247, 0.88) 100%),
+    linear-gradient(110deg, rgba(255, 255, 255, 0.94) 0%, rgba(255, 255, 255, 0.78) 48%, rgba(241, 235, 255, 0.74) 100%),
     var(--bg);
 }
 
@@ -295,7 +295,7 @@ h3 {
   border: 1px solid var(--line);
   border-radius: 8px;
   background: rgba(255, 255, 255, 0.58);
-  box-shadow: 0 18px 42px rgba(40, 35, 51, 0.045);
+  box-shadow: 0 18px 42px rgba(33, 27, 37, 0.045);
 }
 
 .feature-card::before {
@@ -370,7 +370,7 @@ h3 {
   color: var(--accent-deep);
   font-weight: 860;
   text-decoration: none;
-  border-bottom: 1px solid rgba(103, 106, 150, 0.36);
+  border-bottom: 1px solid rgba(201, 53, 103, 0.36);
 }
 
 .text-link:hover {
@@ -423,10 +423,10 @@ h3 {
 
 .privacy-sheet {
   overflow: hidden;
-  border: 1px solid rgba(233, 229, 240, 0.95);
+  border: 1px solid rgba(231, 224, 243, 0.95);
   border-radius: 8px;
   background: rgba(255, 255, 255, 0.66);
-  box-shadow: 0 18px 46px rgba(40, 35, 51, 0.045);
+  box-shadow: 0 18px 46px rgba(33, 27, 37, 0.045);
 }
 
 .privacy-doc .doc-header {
@@ -504,7 +504,7 @@ h3 {
   left: 0;
   width: 3px;
   border-radius: 999px;
-  background: rgba(148, 150, 196, 0.68);
+  background: rgba(228, 71, 125, 0.55);
 }
 
 .card {
