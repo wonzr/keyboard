@@ -669,7 +669,14 @@ h3 {
   .site-header {
     align-items: center;
     flex-wrap: wrap;
-    gap: 14px;
+    gap: 12px;
+  }
+
+  .site-header .brand-name {
+    font-weight: 950;
+    font-synthesis: weight;
+    letter-spacing: -0.025em;
+    -webkit-text-stroke: 0.2px currentColor;
   }
 
   .page {
@@ -677,14 +684,43 @@ h3 {
   }
 
   .site-header .nav {
-    flex-basis: 100%;
+    display: grid;
+    flex: 0 1 calc(100% - 58px);
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    width: calc(100% - 58px);
     margin-left: 58px;
-    padding-top: 2px;
-    justify-content: flex-start;
+    padding: 4px;
+    gap: 4px;
+    border: 1px solid var(--line);
+    border-radius: 14px;
+    background: rgba(255, 255, 255, 0.68);
+    box-shadow: 0 8px 22px rgba(33, 27, 37, 0.04);
   }
 
   .site-header .nav a {
-    font-size: 0.84rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 44px;
+    padding: 10px 8px;
+    border-radius: 10px;
+    color: var(--muted);
+    font-size: 0.8rem;
+    font-weight: 800;
+    line-height: 1.2;
+    transition: color 160ms ease, background-color 160ms ease, box-shadow 160ms ease;
+  }
+
+  .site-header .nav a:hover,
+  .site-header .nav a:focus-visible {
+    color: var(--ink);
+    background: var(--surface);
+    box-shadow: 0 3px 10px rgba(33, 27, 37, 0.06);
+  }
+
+  .site-header .nav a:focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 2px;
   }
 
   .landing-hero {
